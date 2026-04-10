@@ -3,6 +3,16 @@ fn print_value(s: &String) {
 }
 
 fn main() {
-    let s = String::from("hello")
+    let s = String::from("hello");
     print_value(&s);
+}
+
+fn add(a:i32, b:i32) -> i32 {
+    a + b
+}
+
+if x > 5 {
+    println!("big");
+} else {
+    println!("small");
 }
