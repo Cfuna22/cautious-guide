@@ -11,3 +11,16 @@ pub fn none() {
         println!("{}", i);
     }
 }
+
+struct User {
+    name: String,
+    age: u32,
+}
+
+fn main() {
+    let user = User {
+        name: String::from("Abel"),
+        age: 21,
+    };
+    println!("{}{}", user.name, user.age);
+}
